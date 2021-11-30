@@ -1,0 +1,163 @@
+@import url("../css/reset.css");
+body {
+  margin: 0;
+  background: #000000;
+}
+div {
+  width: 1000px;
+  height: 1000px;
+  position: absolute; 
+  top: 50%; 
+  left: 50%;
+}
+span {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+}
+.on {
+  background: #bf0808;
+   box-shadow: 0px 0px 50px 25px #bf0808;
+  animation-delay: 6.6s;
+   top: 100%; 
+   animation: run1 8.1s infinite linear;
+}
+.tw {
+  background: #4058f5;
+   box-shadow: 0px 0px 50px 25px #4058f5;
+  animation-delay: 5.0s;
+   top: 100%; 
+   animation: run2 6.4s infinite ease;
+}
+.th {
+  background: #a42cdb;
+   box-shadow: 0px 0px 50px 25px #a42cdb;
+  animation-delay: 5.5s;
+   top: 100%; 
+   animation: run3 8.6s infinite ease-out;
+}
+.fo {
+  background: #1fdedb;
+   box-shadow: 0px 0px 50px 25px #1fdedb;
+  animation-delay: 9.6s;
+   top: 100%; 
+   animation: run4 8.4s infinite ease-in-out;
+}
+.fi {
+  background: #0dd932;
+   box-shadow: 0px 0px 50px 25px #0dd932;
+  animation-delay: 7.4s;
+   top: 100%; 
+   animation: run5 4.7s infinite linear;
+}
+.si {
+  background: #ddff1c;
+   box-shadow: 0px 0px 50px 25px #ddff1c;
+  animation-delay: 2.2s;
+   top: 100%; 
+   animation: run6 5.8s infinite ease;
+}
+.se{
+  background: #4400ff;
+   box-shadow: 0px 0px 50px 25px #4400ff;
+  animation-delay: 2.0s;
+   top: 100%; 
+   animation: run7 6.5s infinite ease-in;
+}
+.ei {
+  background: #ff00c8;
+   box-shadow: 0px 0px 50px 25px #ff00c8;
+  animation-delay: 3.6s;
+   top: 100%; 
+   animation: run8 7.6s infinite ease-out;
+}
+.ne {
+  background: #38a5ff;
+   box-shadow: 0px 0px 50px 25px #38a5ff;
+  animation-delay: 8.4s;
+   top: 100%; 
+   animation: run9 7s infinite ease-in-out;
+}
+.te {
+  background: #38ff8b;
+   box-shadow: 0px 0px 50px 25px #38ff8b;
+  animation-delay: 4.6s;
+   top: 100%; 
+   animation: run10 7.8s infinite linear;
+}
+.el {
+  background: #ff7512;
+   box-shadow: 0px 0px 50px 25px #ff7512;
+  animation-delay: 5.2s;
+   top: 100%; 
+   animation: run11 5s infinite ease;
+}
+.zw {
+  background: #f7ff12;
+   box-shadow: 0px 0px 50px 25px #f7ff12;
+  animation-delay: 7.3s;
+   top: 100%; 
+   animation: run12 6.9s infinite ease-in;
+}
+.dr {
+  background: #12ffc8;
+   box-shadow: 0px 0px 50px 25px #12ffc8;
+  animation-delay: 2.5s;
+   top: 100%; 
+   animation: run13 5.5s infinite ease-out;
+}
+.vi {
+  background: #1216ff;
+   box-shadow: 0px 0px 50px 25px #1216ff;
+  animation-delay: 8.9s;
+   top: 100%; 
+   animation: run14 7.4s infinite ease-in-out;
+}
+.fu {
+  background: #12ff59;
+   box-shadow: 0px 0px 50px 25px #12ff59;
+  animation-delay: 6.3s;
+   top: 100%; 
+   animation: run15 6.8s infinite linear;
+}
+.sih {
+  background: #12ccff;
+   box-shadow: 0px 0px 50px 25px #12ccff;
+  animation-delay: 9.3s;
+   top: 100%; 
+   animation: run16 7.1s infinite ease;
+}
+@keyframes run1  { 0% {transform: translate(170%); opacity: 0;}
+				 100% {transform: translate(170%, -500%); opacity: 0.7;}}
+@keyframes run2  { 0% {transform: translate(146%); opacity: 0;}
+				 100% {transform: translate(146%, -500%); opacity: 0.7;}}
+@keyframes run3  { 0% {transform: translate(130%); opacity: 0;}
+				 100% {transform: translate(130%, -500%); opacity: 0.7;}}
+@keyframes run4  { 0% {transform: translate(108%); opacity: 0;}
+				 100% {transform: translate(108%, -500%); opacity: 0.7;}}
+@keyframes run5  { 0% {transform: translate(90%); opacity: 0;}
+				 100% {transform: translate(90%, -500%); opacity: 0.7;}}
+@keyframes run6  { 0% {transform: translate(73%); opacity: 0;}
+				 100% {transform: translate(73%, -500%); opacity: 0.7;}}
+@keyframes run7  { 0% {transform: translate(50%); opacity: 0;}
+				 100% {transform: translate(50%, -500%); opacity: 0.7;}}
+@keyframes run8  { 0% {transform: translate(-270%); opacity: 0;}
+				 100% {transform: translate(-270%, -500%); opacity: 0.7;}}
+@keyframes run9  { 0% {transform: translate(-246%); opacity: 0;}
+				 100% {transform: translate(-246%, -500%); opacity: 0.7;}}
+@keyframes run10 { 0% {transform: translate(32%); opacity: 0;}
+				 100% {transform: translate(32%, -500%); opacity: 0.7;}}
+@keyframes run11 { 0% {transform: translate(-218%); opacity: 0;}
+				 100% {transform: translate(-218%, -500%); opacity: 0.7;}}
+@keyframes run12 { 0% {transform: translate(-196%); opacity: 0;}
+				 100% {transform: translate(-196%, -500%); opacity: 0.7;}}
+@keyframes run13 { 0% {transform: translate(-170%); opacity: 0;}
+				 100% {transform: translate(-170%, -500%); opacity: 0.7;}}
+@keyframes run14 { 0% {transform: translate(-145%); opacity: 0;}
+				 100% {transform: translate(-145%, -500%); opacity: 0.7;}}
+@keyframes run15 { 0% {transform: translate(-119%); opacity: 0;}
+				 100% {transform: translate(-119%, -500%); opacity: 0.7;}}
+@keyframes run16 { 0% {transform: translate(-98%); opacity: 0;}
+				 100% {transform: translate(-98%, -500%); opacity: 0.7;}}
